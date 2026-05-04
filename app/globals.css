@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gateway-bg: #060d18;
+  --gateway-card: rgba(17, 31, 54, 0.85);
+}
+
+body {
+  @apply min-h-screen antialiased text-slate-100;
+  background: radial-gradient(ellipse 120% 80% at 50% -20%, #0d2847 0%, var(--gateway-bg) 45%, #020408 100%);
+}
